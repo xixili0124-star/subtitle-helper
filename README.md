@@ -14,9 +14,19 @@
 2. 삼성 인터넷에서 아무 페이지나 북마크에 추가합니다. 추가한 북마크를 길게 눌러 **편집**을 고르고, URL을 복사한 코드로 바꿉니다.
 3. 영상 페이지에서 재생을 시작한 뒤, 주소창에 북마크 이름(예: `자막`)을 입력하고 추천 목록의 북마크를 누르면 설정 창이 뜹니다.
 
-## 파이어폭스·PC 크롬 (유저스크립트)
+## 파이어폭스 (안드로이드 추천)
 
-Violentmonkey나 Tampermonkey에 `subtitle-helper.js`를 그대로 설치합니다. 영상이 있는 페이지와 플레이어 iframe에서 오른쪽에 **자막** 버튼이 자동으로 나타납니다.
+삼성 인터넷은 북마크 코드 실행을 막는 경우가 있습니다. 그럴 때는 파이어폭스를 쓰세요.
+
+1. Play 스토어에서 **Firefox**를 설치합니다.
+2. 파이어폭스 메뉴 → **부가 기능** → **Violentmonkey**를 추가합니다.
+3. 파이어폭스에서 아래 주소를 열고 **설치(Install)** 를 누릅니다.
+   `https://cdn.jsdelivr.net/gh/xixili0124-star/subtitle-helper@main/subtitle-helper.user.js`
+4. 영상 페이지를 열면 오른쪽에 동그란 **자막** 버튼이 자동으로 나타납니다. 스크립트가 고쳐지면 Violentmonkey가 알아서 업데이트합니다.
+
+## PC 크롬 (유저스크립트)
+
+Violentmonkey나 Tampermonkey에 `subtitle-helper.user.js`를 설치합니다. 영상이 있는 페이지와 플레이어 iframe에서 오른쪽에 **자막** 버튼이 자동으로 나타납니다.
 
 ## 알려진 한계
 
